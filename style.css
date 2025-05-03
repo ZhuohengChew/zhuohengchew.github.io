@@ -190,12 +190,14 @@ p {
   display: flex;
   align-items: center;
   padding-top: 80px;
+  overflow:visible;
   background-color: var(--primary);
   color: var(--light);
 }
 
 .hero-content {
   max-width: 1500px;
+  overflow:visible;
 }
 
 .hero-title {

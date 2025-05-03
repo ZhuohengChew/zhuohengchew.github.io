@@ -190,14 +190,12 @@ p {
   display: flex;
   align-items: center;
   padding-top: 80px;
-  overflow:visible;
   background-color: var(--primary);
   color: var(--light);
 }
 
 .hero-content {
   max-width: 1500px;
-  overflow:visible;
 }
 
 .hero-title {
@@ -257,11 +255,14 @@ p {
   max-width: 600px;
   display: flex;
   margin-bottom: 2.5rem;
+  animation: fadeIn 3s ease forwards;
+  animation-delay: 1.5s;
 }
 
 .typewriter {
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
+  word-break:normal;
   border-right: 2px solid var(--primary-color);
   width: fit-content;
   animation: typing 2.5s steps(30, end), blink 0.75s step-end infinite;
@@ -543,7 +544,7 @@ p {
   /* Update profile image in about section */
   .profile-img {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;

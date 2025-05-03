@@ -255,6 +255,7 @@ p {
 .hero-subtitle {
   color: var(--gray);
   max-width: 600px;
+  display: flex;
   margin-bottom: 2.5rem;
 }
 

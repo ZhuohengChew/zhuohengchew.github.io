@@ -1,10 +1,9 @@
 <?php
 // Database credentials
-$host = "sqlXXX.infinityfree.com"; // Replace with your actual InfinityFree MySQL host
-$user = "epiz_12345678";           // Replace with your InfinityFree username
-$password = "your_password";       // Replace with your InfinityFree database password
-$database = "epiz_12345678_portfolio"; // Replace with your database name
-
+$host = "sql300.infinityfree.com"; 
+$user = "if0_39024900";           
+$password = "zhuoheng041019";       
+$database = "if0_39024900_portfolio"; 
 // Create connection
 $conn = new mysqli($host, $user, $password, $database);
 

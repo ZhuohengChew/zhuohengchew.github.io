@@ -1,0 +1,447 @@
+{
+  "site": {
+    "url": "https://zhuohengchew.github.io/",
+    "title": "Chew Zhuo Heng · UTM Software Engineering Student Portfolio",
+    "description": "Chew Zhuo Heng, software engineering student at Universiti Teknologi Malaysia (UTM). Fintech and AI projects, hackathon builds and skills, in an interactive 3D room.",
+    "image": "",
+    "goatcounter": "zhuohengchew",
+    "googleVerification": "8T8hx3U9CQWU5Ls56D9Ob9fYsdUFLPKNFfI5Kqx3fgA"
+  },
+  "profile": {
+    "name": "Chew Zhuo Heng",
+    "title": "Software Engineering student",
+    "school": "Universiti Teknologi Malaysia (UTM)",
+    "summary": "Software engineering student at Universiti Teknologi Malaysia and R&D Software Engineering Intern at Billion Prima. I build fintech and AI products, usually against a hackathon clock, and care about solutions that matter to the people using them.",
+    "photo": "https://github.com/ZhuohengChew/ZhuohengChew/blob/main/profile.jpg?raw=true",
+    "email": "chewheng@graduate.utm.my",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ZhuohengChew"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/chew-zhuo-heng-30a30218b/"
+      }
+    ],
+    "currently": "R&D Software Engineering Intern at Billion Prima Sdn Bhd"
+  },
+  "contact": {
+    "accessKey": "f5a4139b-e173-4600-994d-86d5f134fa58",
+    "note": "Web3Forms access key (free, safe to publish). Empty = letters and guestbook entries open the visitor's email app instead."
+  },
+  "items": [
+    {
+      "kind": "project",
+      "id": "anypay",
+      "model": "card",
+      "name": "AnyPay",
+      "title": "AnyPay: digital finance for Malaysian MSMEs",
+      "award": "Platinum Award (Best of the Best), DIGITEX 2026, Faculty of Computing UTM, among 120 finalists",
+      "press": { "label": "UTM News", "url": "https://news.utm.my/2026/06/877063/" },
+      "short": "Platinum Award winner. A mobile-first financial platform for small businesses.",
+      "description": "A mobile-first financial platform for Malaysian micro, small and medium enterprises: LHDN-compliant invoicing with automatic SST, financial tracking and ESG-aware features. I led the team, which won the top honour at DIGITEX 2026.",
+      "tags": [
+        "Fintech",
+        "MSME",
+        "PWA",
+        "Team lead"
+      ],
+      "link": "https://github.com/ZhuohengChew/AnyPay",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "kind": "project",
+      "id": "anypos",
+      "model": "receipt",
+      "name": "AnyPOS",
+      "title": "AnyPOS: smart point of sale for MSMEs",
+      "award": "Finalist and consolation prize, PayHack 2025 (PayNet and Ant International)",
+      "press": { "label": "UTM News", "url": "https://news.utm.my/2025/08/utms-team-wins-at-payhack25-with-smart-pos-innovation-for-msme/" },
+      "short": "PayHack 2025 finalist. A POS that also handles analytics, tax and credit.",
+      "description": "More than a point-of-sale system: real-time sales analytics, automated LHDN tax filing and credit score support in one platform for underserved Malaysian businesses. Built by team AnyPay at PayHack 2025.",
+      "tags": [
+        "Fintech",
+        "POS",
+        "Analytics"
+      ],
+      "link": "https://github.com/ZhuohengChew/AnyPOS",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "kind": "project",
+      "id": "retention",
+      "model": "badge",
+      "name": "Retention Command",
+      "title": "Retention Command: an onboarding and retention AI employee",
+      "award": "Autopilot Asia Hackathon 2026, Track 5 (HR and People Ops)",
+      "short": "AI agents that watch a new hire's first 90 days and ask a human before sensitive moves.",
+      "description": "An orchestrator and operator agents on Supervity Auto audit onboarding tasks, read engagement feedback and route reminders or escalations across Supabase, Slack and Outlook. When a case is confidential it pauses for human approval instead of guessing.",
+      "tags": [
+        "Agentic AI",
+        "Supabase",
+        "TypeScript"
+      ],
+      "link": "https://github.com/ZhuohengChew/Supervity-AutoPilot-Hackathon",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "kind": "project",
+      "id": "bizview",
+      "model": "chart",
+      "name": "BizView",
+      "title": "BizView: MSME business intelligence and loan pre-check",
+      "short": "AI-powered business insights and loan pre-eligibility for small businesses.",
+      "description": "A SaaS-style web app giving Malaysian MSMEs AI-powered business intelligence, loan pre-eligibility assessment and analytics. Built with Next.js and FastAPI.",
+      "tags": [
+        "Next.js",
+        "FastAPI",
+        "Python"
+      ],
+      "link": "https://github.com/ZhuohengChew/BorNeo-MSME",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "kind": "project",
+      "id": "mystery",
+      "model": "shopper",
+      "name": "AI Mystery Shopper",
+      "title": "AI Mystery Shopper: autonomous Android app testing",
+      "award": "Built for the Deriv AI Hackathon",
+      "short": "An AI that explores and tests mobile apps on its own.",
+      "description": "Combines computer vision (OmniParser) with large language models to parse app screens, decide what to tap next and test Android apps without a human driving.",
+      "tags": [
+        "Computer vision",
+        "LLM",
+        "Python"
+      ],
+      "link": "https://github.com/ZhuohengChew/AI-Mystery-Shopper-Deriv-AI-Hack",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "kind": "project",
+      "id": "kolejcare",
+      "model": "wrench",
+      "name": "KolejCare",
+      "title": "KolejCare: facility complaints and maintenance",
+      "short": "A Flutter app for reporting and fixing campus facility issues.",
+      "description": "Role-based Flutter and Firebase app for students, staff, technicians and admins, with real-time complaint tracking and AI-assisted categorisation and urgency.",
+      "tags": [
+        "Flutter",
+        "Firebase",
+        "Dart"
+      ],
+      "link": "https://github.com/ZhuohengChew/kolejcareproto",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "kind": "project",
+      "id": "mentalhealth",
+      "model": "herb",
+      "name": "Mental Health Hub",
+      "title": "ElanSere Mental Health Hub",
+      "short": "A university mental health support platform.",
+      "description": "Self-assessments, appointment booking, consultations, peer forums and analytics dashboards for university students. Built with Spring Boot and Thymeleaf.",
+      "tags": [
+        "Java",
+        "Spring Boot"
+      ],
+      "link": "https://github.com/ZhuohengChew/ElanSere_MentalHealthHub",
+      "linkLabel": "View on GitHub"
+    },
+    {
+      "id": "ts",
+      "kind": "skill",
+      "model": "plate",
+      "name": "TypeScript plate",
+      "label": "TS",
+      "short": "Engraved plate. Most of my recent hackathon builds."
+    },
+    {
+      "id": "next",
+      "kind": "skill",
+      "model": "plate",
+      "name": "Next.js plate",
+      "label": "NEXT",
+      "short": "Engraved plate. Web front ends, like BizView."
+    },
+    {
+      "id": "python",
+      "kind": "skill",
+      "model": "plate",
+      "name": "Python plate",
+      "label": "PY",
+      "short": "Engraved plate. APIs with FastAPI, and AI tooling."
+    },
+    {
+      "id": "java",
+      "kind": "skill",
+      "model": "plate",
+      "name": "Java plate",
+      "label": "JAVA",
+      "short": "Engraved plate. Spring Boot back ends."
+    },
+    {
+      "id": "flutter",
+      "kind": "skill",
+      "model": "plate",
+      "name": "Flutter plate",
+      "label": "FLTR",
+      "short": "Engraved plate. Cross-platform mobile apps."
+    },
+    {
+      "id": "cpp",
+      "kind": "skill",
+      "model": "plate",
+      "name": "C++ plate",
+      "label": "C++",
+      "short": "Engraved plate. Data structures and core coursework."
+    },
+    {
+      "id": "php",
+      "kind": "skill",
+      "model": "plate",
+      "name": "PHP plate",
+      "label": "PHP",
+      "short": "Engraved plate. Server-side web projects."
+    },
+    {
+      "id": "supabase",
+      "kind": "skill",
+      "model": "plate",
+      "name": "Supabase and Firebase plate",
+      "label": "DB",
+      "short": "Engraved plate. Databases and auth for live apps."
+    },
+    {
+      "id": "git",
+      "kind": "skill",
+      "model": "plate",
+      "name": "Git plate",
+      "label": "GIT",
+      "short": "Engraved plate. Version control for every project."
+    }
+  ],
+  "files": [
+    {
+      "id": "about",
+      "name": "Personnel file",
+      "body": [
+        "Hello! I'm Chew Zhuo Heng, a software engineering student at Universiti Teknologi Malaysia (2023 to 2027), currently an R&D Software Engineering Intern at Billion Prima Sdn Bhd.",
+        "I like building things that bridge technology and real problems, especially in fintech and AI, and I learn fastest under a hackathon deadline.",
+        "Before UTM I studied engineering at Kolej Matrikulasi Kejuruteraan Johor, graduating with a 4.0.",
+        "When I'm not coding, I enjoy playing sports, watching movies, and anything to do with cars."
+      ]
+    },
+    {
+      "id": "awards",
+      "name": "Commendations",
+      "body": [
+        { "text": "Platinum Award (Best of the Best), DIGITEX 2026, Faculty of Computing UTM. Team leader of AnyPay, among 120 finalists.", "press": { "label": "UTM News", "url": "https://news.utm.my/2026/06/877063/" } },
+        "Top 10 finalist, TNG Digital FINHACK 2026.",
+        { "text": "Finalist and consolation prize, PayHack 2025 by PayNet and Ant International, with AnyPOS.", "press": { "label": "UTM News", "url": "https://news.utm.my/2025/08/utms-team-wins-at-payhack25-with-smart-pos-innovation-for-msme/" } },
+        "Participant, Autopilot Asia Hackathon 2026, building Retention Command.",
+        "Google AI Certificate (Google, 2026). AI Aware and AI Appreciate (Ministry of Digital Malaysia, 2026)."
+      ]
+    },
+    {
+      "id": "status",
+      "name": "Current status",
+      "body": [
+        "Currently an R&D Software Engineering Intern at Billion Prima Sdn Bhd.",
+        "Whether you have a question or just want to say hi, use the letter on the desk and I'll get back to you."
+      ]
+    }
+  ],
+  "guestbook": {
+    "scriptUrl": "https://script.google.com/macros/s/AKfycbyXgSWpUTm0-DczpRtarvyvJnCX4f6zp_pclwdZP3mpkHz5ZfuePcuDdmxxa2yL6d8twA/exec",
+    "note": "Web app URL of the Google Sheet script (tools/guestbook/Code.gs). Empty = entries are emailed through Web3Forms instead."
+  },
+  "ribbons": {
+    "secretFile": {
+      "id": "secret",
+      "name": "Behind the scenes",
+      "body": [
+        "You found every ink ribbon. Here is how this room was made.",
+        "Everything was modelled and lit in Blender, then the lighting was baked into two images, one for day and one for night, so the room looks rendered while running smoothly in a browser.",
+        "The website is plain JavaScript with Three.js. Ziggy, the plant and the furniture models are free assets from Sketchfab and Poly Haven, credited at the bottom of the normal view."
+      ]
+    }
+  },
+  "credits": [
+    {
+      "text": "Ziggy the Cat Idle by Kitt Thomas (CC BY 4.0)",
+      "url": "https://sketchfab.com/3d-models/ziggy-the-cat-idle-bc4364d6162742f1aef75effab3ff2e8"
+    },
+    {
+      "text": "Office Chair by Red Fox / nokillnando (CC BY 4.0)",
+      "url": "https://sketchfab.com/3d-models/office-chair-b228a29fa84544c2be501c295653ffe7"
+    },
+    {
+      "text": "Monstera Deliciosa Potted Mid-Century plant by Giora (CC BY 4.0)",
+      "url": "https://sketchfab.com/3d-models/monstera-deliciosa-potted-mid-century-plant-1ab9bf841df04c07b1819be596327629"
+    },
+    {
+      "text": "Porsche 911 GT3 by Outlaw Games (CC BY-NC 4.0)",
+      "url": "https://sketchfab.com/3d-models/porsche-911-gt3-593c83f3662a4a45a016f95dedd9f243"
+    },
+    {
+      "text": "Honda S2000 by DRIVER-FIRE (CC BY 4.0)",
+      "url": "https://sketchfab.com/3d-models/honda-s2000-c8f87ba8790d4154929103e4012d1e66"
+    }
+  ],
+  "captions": {
+    "monitor": "My computer. Sit down and have a look.",
+    "chest": "The item box. Every project and skill is stored inside.",
+    "bookshelf": "Files and notes about me.",
+    "typewriter": "A typewriter. Sign the log to save your visit.",
+    "letter": "Writing paper. Send me a letter.",
+    "cat": "Ziggy. The room's guardian. Seems friendly.",
+    "lamp": "A desk lamp. It turns on when it gets dark.",
+    "mug": "My third coffee mug. The first two are in the sink.",
+    "plant": "Still alive. Barely.",
+    "window": "The window. Click it to switch between day and night.",
+    "clock": "Always a little behind. Like my sleep schedule.",
+    "ribbon": "An ink ribbon. Someone must have dropped it.",
+    "door": "A navy door. It doesn't lead to the hallway.",
+    "music": "A gramophone. Click it to play some lo-fi; click again to stop."
+  },
+  "music": {
+    "credit": { "text": "Lo-Fi and Chill by Holizna (CC0)", "url": "https://opengameart.org/node/161819" },
+    "tracks": [
+      { "file": "first-snow.mp3", "title": "First Snow" },
+      { "file": "laundry-on-the-wire.mp3", "title": "Laundry On The Wire" },
+      { "file": "keeping-cool.mp3", "title": "Keeping Cool" },
+      { "file": "windows-down.mp3", "title": "Windows Down" },
+      { "file": "snow-drift.mp3", "title": "Snow Drift" },
+      { "file": "everything-you-ever-dreamed.mp3", "title": "Everything You Ever Dreamed" },
+      { "file": "2-hour-delay.mp3", "title": "2 Hour Delay" }
+    ]
+  },
+  "cat": {
+    "name": "Ziggy",
+    "start": "hello",
+    "nodes": {
+      "hello": {
+        "text": "Mrrp. You found the safe room. Nothing can hurt you in here.",
+        "choices": [
+          {
+            "label": "Who lives here?",
+            "next": "who"
+          },
+          {
+            "label": "Where are the projects?",
+            "next": "projects"
+          },
+          {
+            "label": "How do I contact him?",
+            "next": "contact"
+          },
+          {
+            "label": "Bye",
+            "next": null
+          }
+        ]
+      },
+      "who": {
+        "text": "Zhuo Heng. Software engineering student at UTM, interning in R&D. Wins hackathons, drinks too much coffee.",
+        "choices": [
+          {
+            "label": "Anything else?",
+            "next": "hello"
+          }
+        ]
+      },
+      "projects": {
+        "text": "In the item box, by the wall. Examine each one for the full story.",
+        "choices": [
+          {
+            "label": "Open the item box",
+            "action": "items"
+          },
+          {
+            "label": "Something else",
+            "next": "hello"
+          }
+        ]
+      },
+      "contact": {
+        "text": "Write a letter at the desk. He reads every one.",
+        "choices": [
+          {
+            "label": "Write a letter",
+            "action": "letter"
+          },
+          {
+            "label": "Something else",
+            "next": "hello"
+          }
+        ]
+      }
+    }
+  },
+  "github": {
+    "user": "ZhuohengChew",
+    "showcaseRepos": [
+      "AnyPay",
+      "AnyPOS",
+      "Supervity-AutoPilot-Hackathon",
+      "BorNeo-MSME",
+      "AI-Mystery-Shopper-Deriv-AI-Hack",
+      "kolejcareproto",
+      "ElanSere_MentalHealthHub"
+    ],
+    "fallback": "Nothing pushed in the last few weeks. Everything lives on GitHub."
+  },
+  "sceneCaptions": {
+    "train": {
+      "door": "The corridor door. Next stop: the campsite.",
+      "window": "The world rolls past. Click to switch between day and night.",
+      "bed": "A proper bed. Rare on a train.",
+      "chest": "My luggage. Everything I've built is packed inside.",
+      "monitor": "My laptop. Sit down and have a look.",
+      "typewriter": "A portable typewriter. Sign the log to save your visit.",
+      "letter": "Writing paper. Send me a letter.",
+      "bookshelf": "Travel reading: files and notes about me.",
+      "lamp": "A brass reading light.",
+      "clock": "Running on train time.",
+      "mug": "Dining car coffee. Still warm.",
+      "cat": "Ziggy came along for the ride."
+    },
+    "camp": {
+      "door": "A trail sign. It points down the road to a garage.",
+      "fire": "A crackling campfire. Click it to switch between day and night.",
+      "lamp": "A camping lantern, for reading after dark.",
+      "tent": "The tent. Cosier than it looks.",
+      "logs": "Log seats. Pull one up to the fire.",
+      "chest": "My backpack. Everything I've built is packed inside.",
+      "monitor": "My laptop. Sit down and have a look.",
+      "typewriter": "A typewriter on a crate. Sign the log to save your visit.",
+      "letter": "Writing paper. Send me a letter.",
+      "bookshelf": "Maps and notes about me, weighed down on a stump.",
+      "mug": "Enamel mug. Campfire coffee, slightly smoky.",
+      "cat": "Ziggy, warming his paws by the fire."
+    },
+    "garage": {
+      "door": "The side door. It leads back to the safe room.",
+      "window": "The roll-up door. Click it to switch between day and night.",
+      "monitor": "My laptop on the workbench. Sit down and have a look.",
+      "chest": "The tool chest. Everything I've built is in these drawers.",
+      "bookshelf": "Manuals and binders: notes about me.",
+      "typewriter": "A typewriter on a rolling cart. Sign the log to save your visit.",
+      "letter": "A clipboard. Send me a letter.",
+      "lamp": "A clamp lamp, for late-night tinkering.",
+      "mug": "Coffee, gone cold an hour ago.",
+      "lift": "A two-post lift. Mind your head.",
+      "tyres": "Spare wheels, stacked and waiting.",
+      "neon": "A neon bolt. It buzzes a little.",
+      "car1": "A Porsche 911 GT3, up on the lift for a check-up.",
+      "car2": "A Honda S2000, roof up, parked beside the lift.",
+      "cat": "Ziggy, supervising the mechanics."
+    }
+  },
+  "books": [
+    { "title": "Atomic Habits", "author": "James Clear", "quote": "Every action you take is a vote for the type of person you wish to become." },
+    { "title": "Educated", "author": "Tara Westover", "takeaway": "Education isn’t only learning facts. It’s earning the right to think for yourself." }
+  ]
+}
